@@ -1,0 +1,17 @@
+Run these commands INSIDE Claude Code (not PowerShell):
+
+/plugin marketplace add anthropics/claude-plugins-official
+/plugin install frontend-design@claude-plugins-official
+/plugin install typescript-lsp@claude-plugins-official
+/plugin install code-simplifier@claude-plugins-official
+/plugin install security-guidance@claude-plugins-official
+/plugin install claude-md-management@claude-plugins-official
+/plugin install commit-commands@claude-plugins-official
+/reload-plugins
+/plugin list
+
+Optional, if you want deeper manual security scans:
+/plugin install claude-security@claude-plugins-official
+
+On Windows, also install the TypeScript language server in PowerShell/CMD:
+npm install -g typescript typescript-language-server
